@@ -2,7 +2,8 @@ import Dashboard from '@/components/Dashboard.vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 const router = createRouter({
-  history: createWebHashHistory(import.meta.env.BASE_URL),
+  // history: createWebHashHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory('/2025TS_week2/'),
   routes: [
     {
       path: '/',
