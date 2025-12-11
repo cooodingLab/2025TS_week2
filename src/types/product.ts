@@ -78,18 +78,19 @@ export type CreateProductParams = {
 export type EditProductParams = {
   // 在這裡加上型別定義，將 unknown 替換為正確的型別
   id: string
-  data: {
-    title: string
-    category: string
-    origin_price: number
-    price: number
-    unit: string
-    description: string
-    content: string
-    is_enabled: number
-    imageUrl: string
-    imagesUrl: string[]
-  }
+  data: CreateProductParams
+  // {
+  //   title: string
+  //   category: string
+  //   origin_price: number
+  //   price: number
+  //   unit: string
+  //   description: string
+  //   content: string
+  //   is_enabled: number
+  //   imageUrl: string
+  //   imagesUrl: string[]
+  // }
 }
 
 // TODO: 定義取得商品列表回應型別
