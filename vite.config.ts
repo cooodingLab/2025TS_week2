@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/2025TS_week2/',
+  base: '/2025TS_week3/',
 
   plugins: [vue(), vueDevTools()],
   resolve: {
